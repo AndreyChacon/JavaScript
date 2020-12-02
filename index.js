@@ -131,19 +131,19 @@ while (a <=25);
 
 /*BUCLE (BREAK-CONTINUE)*/
 
-for (h = 0; h <= 10; h++) {
-    if (h == 5) {
+for (H = 0; H <= 10; H++) {
+    if (H == 5) {
         break
     }
-    document.write (h + '<br/>' + '<br/>');
+    document.write (H + '<br/>' + '<br/>');
 }
 
 
-for (h = 0; h <= 10; h++) {
-    if (h == 5) {
+for (H = 0; H <= 10; H++) {
+    if (H== 5) {
         continue
     }
-    document.write (h + '<br/>');
+    document.write (H + '<br/>');
 }
 
 
@@ -298,6 +298,8 @@ param.charAt(0).toUpperCase() +
 param.slice(1)]: 4
 };
 console.log (config);
+
+
 
 /*OBJECT ASSIGN*/
 let person = {
@@ -651,36 +653,6 @@ console.log("foo".repeat(3)); //foofoofoo
 "SoloLearn" .includes("lole");  //true
 "SoloLearn" .includes("olo", 1); //true
 "SoloLearn" .includes("olo", 2); //false
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
